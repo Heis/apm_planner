@@ -66,11 +66,11 @@ git clone https://github.com/diydrones/apm_planner
 
 ```
 cd ~/workspace/apm_planner
-qtmake-qt4 qgroundcontrol.pro
+qmake-qt4 qgroundcontrol.pro
 make
 ```
 
-Or try `qmake qgroundcontrol.pro` if the `qtmake-qt4` command doesn't exist on your version of Ubuntu.
+Or try `qmake qgroundcontrol.pro` if the `qmake-qt4` command doesn't exist on your version of Ubuntu.
 
 4) Run APM Planner:
 
